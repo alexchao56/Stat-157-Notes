@@ -1,0 +1,56 @@
+Maintain readable, working code so that anybody could pick it up and know what to do. 
+
+Takeaway:
+Group 2
+On reproducibility, hard to see until you see someone trying to reproduce your code
+Hard to pass things to each other. 
+When you can see from somebody's perspective
+
+Group 4
+Roadblocks - couldn't run virtual machine on our computer. It was a RAM problem. 
+Other people in the group have to step up
+Some ambiguity in the survey, or data isn't complete
+How do I know what data was removed? Removed empty boxes
+
+Group5
+Used slid.es for presentation
+Used STATA to graph
+
+Group 6
+Group 7
+Split into 3 parts. How we got our data. Work in a very distributed and asynchronous fashion
+How did you clean the code? Found unicode getters that I couldn't parse. Look at all the combinations of classes that people took. Ignored classes
+Unicode can be very messy to deal with
+What takeaway can I take from a violin plot?
+
+Group9
+People work on different aspects and abstract it away. That way people can work on their own pace
+Ended up being short one person
+Made it work
+Horizontal group, stack overflow, github tracker
+Wide range of skills. What were the CS skills that you leaned on people for and what did you pick up? 
+Mental models for virtual machines, github repository and 
+keystrokes
+
+Group10
+Used R as analyst tool instead of ipython notebook
+number of languages vs learning style. No relationship
+Somewhat strong relationship b/w number of languages you know and entrepreneur. 
+Not able to meet up once
+Mainly depended on email to communicate
+Word cloud gives you an A-HA moment. Biggest thing that jumped out
+Data-->Information-->Insight
+
+Group11
+Straying from our roles and doing things together
+Language barriers
+Perfection is the enemy. Reproducibiliy is the main goal
+If you overthink this, you will become an enemy to yourself
+Step in and declare your roadblocks early
+
+Expectations are unrealistic and there's a deadline == real world
+
+Group12-Chris
+
+Presentations will happen every other week.
+

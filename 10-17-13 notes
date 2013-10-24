@@ -1,0 +1,111 @@
+Introduction to the Gif
+Kevin Koy-Geospatial Innovation Facility
+
+Websites that they are hosting:
+http://cal-adapt.org
+Visualize climate based layers on a map
+Open-source python django applications on backend. Google maps on front end
+
+http://landcarbon.org
+
+Berkeley Ecoinformatics Engine
+-Berkeley natural resources museum. Collecting data for years. Digitized. 
+
+Baselayers-Freely Avaialble
+Censor data, photos taken in the field. Creating this engine 
+Using D3 and Visualization tools 
+
+Many data layers in the world. 
+
+
+Philip Stark lecture
+
+Looking at whether weather is predictive of earthquakes.
+SAMSI
+
+Simple rules that require fewer parameters.
+ETAS(?)
+
+Do earthquakes really have probabilities? 
+Rabbit Axioms
+- Can't turn a rate into a probability without assuming the phenomenon is random in the first place
+
+
+What would make the casino metaphor apt?
+1. the physics of earthquakes might be stochastic
+2. stochastic models might provide a compact, accurate description of earthquake phenomenology
+3. stochastic models might be useful for predicing future seismicity
+
+Seimicity models
+- poisson. Clearly doesn't fit: too litle clustering
+- poisson for "declustered" catalogs". will pass if you remove enough events. How few events can you remove? Standard algorithms don't work
+- gamma renewal. doesn't fit. 
+- ETAS doesn't fit.
+
+Are reclustered approixmately Poisson?
+- Examine SCEC data; test for temporal and spatiotemporal Poisson behavior 
+
+Combinatorial optimization; computational complexity
+
+Heuristic method- find a reasonable number of events to subtract
+
+How to test whether events come from a Poisson process?
+- if you observed it from time 0 to time T
+- estimate lambda hat to be = #events / T
+- suppose we divide this into equal length subintervals. The distribution of the events in intevals should be poisson. 
+- some intervals should have some events, no events, or more
+- do a chi-square test on that
+- WRONG
+- Homogeneous poisson process - expected rate is uniform
+- conditional distribution of time of those events is the same as the order statistics of uniform iid random variables
+- Do these look like 11 independent uniform random variables?
+- Empirical cumulative distribution of the number of events
+- Theoretical CDF would look like line with slope 1
+- Non-parametric test: Kolmogorov–Smirnov test. How much the max distance from empirical vs theoretical
+
+http://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test
+Assumes you fixed theoretical distributions beforehand
+
+Automatic Alarms and MDAs (magnitude dependent alarms)
+- everytime you see an event bigger than a threshold, turn on an alarm
+- look at the level sets, take lower and lower level sets
+- longer alarms for bigger events
+
+Simulation is from an ETAS model
+
+Try to find different parameters. Currently \tau * \mu^M
+If we can find one, then we can become famous
+
+What is ETAS?
+- how do epidemics happen?
+- Heuristic: some events are unpredicatble "background" mainshocks
+- Two empirical relationships: Gutenberg-Richter law, Omori-Utsu law
+- magnitude indepndent of time, same distribution for main and aftershock
+- every event is a background event or has at most 1 parent
+
+Gutenberg-Richter law for magnitudes
+- N \propto 10^{-bM}
+- best fitting parameter b varies regionally. 
+- ETAS turns into a probability density: 
+p(M|m_o) = b ln10 * 10^{-b(M-m_0)}
+
+Omori-Utsu law
+- \frac{\Delta N}{\delta t} \approx \frac{K}{(c+t)^p}
+- integrating that would be tell you how many aftershocks
+
+Using ETAS to predict
+- estimate parameter on training data
+- optimal predictor of stochastic process: conditonal intensity
+- turn on alarms when the conditional intensity \lambda(t) is above some threshold
+
+
+
+
+
+
+
+
+
+
+
+

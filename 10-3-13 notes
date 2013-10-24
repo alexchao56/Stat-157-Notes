@@ -1,0 +1,74 @@
+Phillip Stark Lecture
+
+Stochastic Process in space and time (location and occurrence in time)
+Marked Stochastic Process
+
+Exponential distribution is memoryless
+    given that you haven't had event at time t, the chance that you 
+    have it at t + delta is the same as probability of t
+
+Hawkes' Process - background events follow a poisson process. That event can spawn a family of events. Any event has at most 1 parent
+
+Made a big map of faults in the area and looked at geodetic measurements
+
+Long-term: how much is the ground moving
+
+Then do some geology. 
+
+Slip factor - some of the moving will happen that doesn't involve earthquakes. 
+
+Parcel movement into two pieces-seismic part and non-seismic part. 
+They model the uncertainty by pretending that the errors of the quantities are independent gaussian random variables with mean 0. 
+Then randomly select parameters for the probability models
+
+They pretend that reality is like a draw from a hat where the average vaule of the parameter is what they think it is. Departures from that is gaussian normal. 
+
+Moment = size of the earthquake
+
+Repeat this until they get 2000 models that they can't rule out as crazy because they satisfy the slip constraint
+
+Categorize the earthquakes that have occured 
+
+Fit 3 different probability models to earthquakes. 
+Combine stochastic moels to estimate the probability of a large earthquake
+
+No idea what it means. None of the standard interpretations of probability applies. 
+
+They equate frequencies with probabilities. BAD ******
+
+Not enough data in california to see if it's true. 
+
+Spending time and effort is a distraction from the real problem. Being ready for the big earthquake that is coming. 
+
+
+Earthquake probability as a metaphor
+Idea that earthquakes occur as if a casino game being played. 
+People are arguing about the rules of that game. 
+Why not like terrorism instead?
+
+Why is the urn model relevant?
+
+Justification for it is that it is a compact way for the data. That is actually false. Do the data come from a poison distribution? Hypothesis tests fails. 
+Nobody is stopping them
+
+Earthquakes are like terrorists bombings. It'll go off, we just don't know when. 
+
+Where does the randomness come from?
+The fact that you have a rate doesn't mean you have a probability. 
+
+Randomness doesn't come from the rate, randomness comes from the random seletion. 
+
+Don't get random for free. Testing whether it appears to be random doesn't make it random
+
+just because assuming there's an average time between failures doesn't give you a probability distribution
+
+How do we test predictions?
+
+People have typically modeled the earthquakes as a stochastic process
+
+Want to avoid assumption of earthquakes being random
+Is there some permutation based approach that doesn't involve a probability distribution?
+
+What is a sensible null-hypothesis?
+Ultimately we want to say "predictions no better than chance". Question is, what chance?
+"prediction no better than one with a mindless method"

@@ -1,0 +1,25 @@
+Python for Daa Analysis 
+Can read for free on proquest.sfaribooksonline.com
+
+Today we looked at the Data Science initiative that is sponsored by Berkeley as well as NYU and the University of Washington. 
+
+Finally was able to get Ipython working. What Chris, the GSI, had to do was fix the settings in the VirtualBox by enabling port forwarding and entering the following settings
+
+Host IP   Host Port
+127.0.0.1 7777
+
+Guest IP  Guest Port
+10.0.2.15 8888
+
+ipython notebook --ip = 0.0.0.0 --no-browser
+
+And in the web browser:
+127.0.0.1:7777
+
+Using Google docs, and the ipython notebook we played with quick and dirty data. 
+
+Install gspread onto our linux virtual machine
+sudo apt-get install python-pip
+sudo pip install gspread
+
+

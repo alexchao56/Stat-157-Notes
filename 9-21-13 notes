@@ -1,0 +1,104 @@
+Toad meadows in yosemite mountains. 
+
+using very limited data
+sampling gaps of no data
+paper surveys 
+
+used general linear models and general additive models
+
+
+for every model what is the probability of breeding
+distribution networks, disperal distance
+look at meadows and their neighbors. 
+What would happen if we deleted a meadow? How does that change the probabilities of meadows in the park? Found that it doesn't affect much the quality of neighbors if they had a lot of neighbors already. Affected more the intermediate. 
+
+look at meadows as a traffic network. can identify breeding hubs in the park
+
+has application to other fields of study like genetics or climate change. All from this dataset from meadows.
+
+Questions:
+What should management priority be?
+
+Use network analysis to detect hotspots of breeding meadows and isolated meadows and high-deletion impact
+
+2. Do horses have a negative impact on toads?
+
+Stories but no data. 
+Stark-"The plural of anecdote is not data."
+Can't look at one meadow, hoofprint. Need to look at the patterns across the park. 
+
+How do you find causality with observational data? Lots of problems with inference. 
+
+Big data same way- lots of observational data. 
+
+Reshuffle the horses and toads with the existing distribution (bootstrap)
+
+Can see an environmental gradient
+
+100 meadows 10 have toads, 10 have packstocks. 2 have overlap.
+Suppose that use of pack stock have nothing to do with toads
+Means that labeling of packstock is arbitrary to toad breeding
+Is 2 smalll?
+How often would you see an overlap of 2 or fewer? If it is surprising then that is evidence that packstock affects toads.
+
+All else being equal, how likely is that overlap due to chance alone?
+
+Weight or not weight different bins. Didn't have an apriori reason. 
+
+Weak evidence that horses helped the toads
+
+Uncertainty
+errors in toad detection
+We know that the positives are real but the negatives might be falsely detected
+There was no bias between horse meadows and non=horse meadows.
+Concluded that that error was not significant
+
+Errors reported stock use
+Number of horses reported. Not always a 100% honest
+Not a systematic bias in reporting that would change relationship that we're seeing. 
+
+errors in stock use location
+"Jane's meadow"
+We do'nt know which meadow that was. 
+Do all possible combination and assign them there
+What's the worst case? What are the extremes?
+
+Conclusion: surprings that relationship b/w packstock and toads were negative
+
+blend a simple predictive occupancy model with netowrk analysis to: do all these things
+
+with permutation approach: infer the effect of a rare stressor on a rare species
+non-parametric test
+
+
+
+Phillip Stark lecture
+Looking at the assumptions of the different statistical tests. 
+2 sample t tests, 1 sample t-test on the differences, permutation test
+
+We're still using the t-statistic,it matters how we find the signficance level. 
+
+Likert Scale - Teaching evaluations, doctor asking how much pain you feel on scale of 1 to 10. you're using numbers, but they are still categorical. Can't take averages of categorical data even if they are numbers. 
+
+F statistic- between sum of squares (BSS), within sum of squares (WSS)
+
+Some claimed precursors of earthquakes:
+
+foreshocks, patterns,
+electromagnetics
+cloud formations
+infrared
+well water composition, temperature and level
+geodetics
+animal behavior
+
+Most popular stochastic model is Poisson (spatially heterogeneous, temporarlly homogeneous, marked?)
+Gamma renewal processes
+weibull, lognormal, normal, double exponential
+ETAS
+Brownian passage time
+
+Poisson process vs poisson distribution
+Everytime there is an earthquake, i wait an exponentially amount of time for the next one
+
+Interpretation of coin tosses. 
